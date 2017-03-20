@@ -22,6 +22,7 @@ function prepareGallery(){
 		links[i].onclick = function(){
 			return !showPic(this);
 		}
+		links[i].onkeypress = links[i].onclick;
 	}
 }
 

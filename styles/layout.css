@@ -19,10 +19,22 @@ ul {
 }
 li {
   float: left;
-  padding: 1em;
   list-style: none;
+  padding:1em 2em 1em 0;
 }
-img {
-  display:block;
+
+#placeholder {
+  display: block;
   clear: both;
+}
+#imagegallery img {
+  width: 96px;
+  height: 60px;
+}
+#imgegallery li a img {
+  border: o;
+}
+#placeholder{
+  width: 672px;
+  height: 420px;
 }
